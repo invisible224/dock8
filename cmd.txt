@@ -1,0 +1,20 @@
+
+
+C:\>cd a-dock-build
+
+// Pull first from nginx
+
+C:\a-dock-build>docker pull nginx
+Using default tag: latest
+latest: Pulling from library/nginx
+a480a496ba95: Pull complete
+
+// Push to your docker
+
+C:\a-dock-build>docker tag nginx codewar77/nginx
+
+C:\a-dock-build>docker push codewar77/nginx
+Using default tag: latest
+The push refers to repository [docker.io/codewar77/nginx]
+latest: digest: sha256:7ba542bde95e6523a4b126f610553e3657b8107e911ae1219bfc size: 1778
+
