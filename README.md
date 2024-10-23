@@ -1,5 +1,5 @@
 # To perform Docker commands with push and pull commands.
- 
+(follow cmd.txt--> simple and easy)  (this is hard way) 
 # Push:
  Follow same steps as in exp-6
 
